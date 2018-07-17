@@ -1,0 +1,52 @@
+.navbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.link {
+	padding: 10px;
+}
+
+.saberHomePage {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 50px;
+	text-decoration: underline;
+}
+
+.light-sabers {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	& h2 {
+		font-size: 24px;
+	}
+}
+
+.saber-colors img {
+	height: 500px;
+}
+
+.order1{
+    margin: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.order{
+    margin: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.label {
+    margin:20px;
+}
